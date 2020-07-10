@@ -1,2 +1,4 @@
 # mnohrsthadotcomdotnp
- my personal site about me .
+> My personal site hosted on Github
+
+**Checkout** [manoharstha.com.np](www.manoharstha.com.np "manohar") 
