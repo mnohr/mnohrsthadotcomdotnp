@@ -23,8 +23,8 @@
   ![Run flutter command](https://github.com/mnohr/mnohrsthadotcomdotnp/blob/master/flutter/runflutter.png)
       > If you also result same like image above than you are all set.
 1. Run **fluter doctor** in cmd (command Prompt)
-  ![Run flutter doctor](https://github.com/mnohr/mnohrsthadotcomdotnp/blob/master/flutter/flutterdoctor.png)
-1. Now you have installed missing dependencies and then you can run the flutter doctor command again to verify that you’ve set everything up correctly ,like
+  ![Run flutter doctor](flutter/flutterdoctor.png)
+1. Now you have to installed missing dependencies and then you can run the flutter doctor command again to verify that you’ve set everything up correctly ,like
     * Download and install android studio [click link](https://developer.android.com/studio)
     * setup android emulator
         * Launch Android Studio, click the AVD Manager icon, and select Create Virtual Device and then Select one or more system images for the Android versions you want to emulate, and select Next. An x86 or x86_64 image is recommended.  
