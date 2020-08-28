@@ -23,7 +23,7 @@
   ![Run flutter command](https://github.com/mnohr/mnohrsthadotcomdotnp/blob/master/flutter/runflutter.png)
       > If you also result same like image above than you are all set.
 1. Run **fluter doctor** in cmd (command Prompt)
-  ![Run flutter doctor](flutter/flutterdoctor.png)
+  ![Run flutter doctor](flutterdoctor.png)
 1. Now you have to installed missing dependencies and then you can run the flutter doctor command again to verify that you’ve set everything up correctly ,like
     * Download and install android studio [click link](https://developer.android.com/studio)
     * setup android emulator
