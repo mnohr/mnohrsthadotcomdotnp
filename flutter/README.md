@@ -3,7 +3,7 @@
 > ### Important Links
 * [codebook](https://flutter.dev/docs/cookbook)
 
->Installation Guide for window
+> ## Installation Guide for window
 
 1. [Get Started](https://flutter.dev/docs/get-started/install/windows) 
 1. flutter depend on **window powershell** and **git for windows** so we must have them.
