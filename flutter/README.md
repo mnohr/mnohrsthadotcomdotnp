@@ -19,10 +19,12 @@
        * If the entry exists, append the full path to flutter\bin using ; as a separator from existing values.
       * If the entry doesn’t exist, create a new user variable named Path with the full path to flutter\bin as its value
       > You have to close and reopen any existing console windows for these changes to take effect.
-1.  Run Flutter in cmd (command Prompt)
-![flutter run command](https://github.com/mnohr/mnohrsthadotcomdotnp/blob/master/flutter/runflutter.png)
+1.  Run **Flutter** in cmd (command Prompt)
+![Run flutter command](https://github.com/mnohr/mnohrsthadotcomdotnp/blob/master/flutter/runflutter.png)
+      > If you also result same like image above than you are all set.
+1. Run **fluter doctor** in cmd (command Prompt)
 
-
+![Run flutter doctor](https://github.com/mnohr/mnohrsthadotcomdotnp/blob/master/flutter/flutterdoctor.png)
 
 
 
