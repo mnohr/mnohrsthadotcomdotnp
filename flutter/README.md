@@ -28,6 +28,15 @@
     * Download and install android studio [click link](https://developer.android.com/studio)
     * setup android emulator
         * Launch Android Studio, click the AVD Manager icon, and select Create Virtual Device and then Select one or more system images for the Android versions you want to emulate, and select Next. An x86 or x86_64 image is recommended.  
+            > procces to setup
+            1. ![avd iocn](avdicon.png "Click AVD Manager icon")
+            1. ![create virtual device](add_vd.png "Click on create virtual device")
+            1. ![choose device](choose.png "select any device")
+            1. ![select device version](sysimgae.png "")
+            1. ![configure setting and click finish](finsh.png)
+            1. ![avd iocn](avdicon.png)
+            1. ![rundevice](rundevice.png)
+            1. ![emulator ready](mobiledevice.png)
         * Or you can use flutter emulator which is created in vscode
           > To create a new emulator run
             ```
