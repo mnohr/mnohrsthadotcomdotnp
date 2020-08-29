@@ -32,11 +32,11 @@
             1. ![avd iocn](avdicon.png "Click AVD Manager icon")
             1. ![create virtual device](add_vd.png "Click on create virtual device")
             1. ![choose device](choose.png "select any device")
-            1. ![select device version](sysimgae.png "")
-            1. ![configure setting and click finish](finsh.png)
-            1. ![avd iocn](avdicon.png)
-            1. ![rundevice](rundevice.png)
-            1. ![emulator ready](mobiledevice.png)
+            1. ![select device version](sysimgae.png "select any device version")
+            1. ![configure setting and click finish](finsh.png "click finsh to complete setup")
+            1. ![avd iocn](avdicon.png "again click AVD manager icon") 
+            1. ![rundevice](rundevice.png "click to lunch device)
+            1. ![emulator ready](mobiledevice.png )
         * Or you can use flutter emulator which is created in vscode
           > To create a new emulator run
             ```
