@@ -28,7 +28,7 @@
     * Download and install android studio [click link](https://developer.android.com/studio)
     * setup android emulator
         * Launch Android Studio, click the AVD Manager icon, and select Create Virtual Device and then Select one or more system images for the Android versions you want to emulate, and select Next. An x86 or x86_64 image is recommended.  
-            > ### procces to setup
+            > ### procces to setup emulator in android studio
             1. ![avd iocn](avdicon.png "Click AVD Manager icon")
 
             1. ![create virtual device](add_vd.png "Click on create virtual device")
@@ -42,11 +42,11 @@
             1. ![avd iocn](avdicon.png "again click AVD manager icon") 
 
             1. ![rundevice](rundevice.png "click to lunch device")
-            
+
             1. ![emulator ready](mobiledevice.png )
 
 
-        * Or you can use flutter emulator which is created in vscode
+        * Or you can use **flutter emulator** which is created in vscode
           > To create a new emulator run
             ```
              flutter emulators --create [--name xyz]
@@ -55,6 +55,28 @@
             ```
             flutter emulators --launch <emulator id>
             ```
+---
+## Start to code with visual studio code
+
+### Install Plugin
+
+1. Flutter
+1. Dart
+1. Awesome Flutter Snippets
+
+### Create your project
+1. With shortcuts
+      * press **ctrl+shift+p** key ,click on *flutter:new project* .
+      * Enter your project name, example myfirstapp.
+      * specify the directory to save the project.
+1. Or with terminal
+      * press **ctrl+`** key , to start terminal
+      * create a folder for a new project anywhere then go to created directory .
+      * enter command
+        ```
+        flutter create yourprojectname
+        ```
+      
 
 
 
