@@ -77,10 +77,8 @@
         flutter create yourprojectname
         ```
       
-
-
-
-## vscode shortcuts
+      
+### vscode shortcuts
 
  shortcuts     | description     
    -------  |----------
