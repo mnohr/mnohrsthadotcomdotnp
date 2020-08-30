@@ -90,3 +90,7 @@
  cmd + . | open option
  cmd + space | open option
 
+
+
+ ## ERROR AND THE SOLUTION
+
