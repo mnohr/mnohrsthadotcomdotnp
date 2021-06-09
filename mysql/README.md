@@ -15,7 +15,7 @@ step by step guide for learning mysql from beginner  to advance .
 
 ## Show all available databases
 ```
-    SHOW DATABASE;
+    SHOW DATABASES;
 ```
 
 ## Use a database
