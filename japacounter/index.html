@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Japa Counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- <header>
+    <h1>JAPA COUNTER</h1>
+  </header> -->
+
+  <main>
+    <div class="container">
+      <!-- Left Section: Mantra, Timer & Controls -->
+      <section class="left-section">
+        <div class="mantra-display">
+          <p class="mantra-subtitle">
+            Sri Krishna Caitanya Prabhu Nityananda<br>
+            Sri Advaita Gadadhara Srivasadi Gaura-Bhakta-Vrinda
+          </p>
+          <p class="mantra-text">
+            Hare Krishna Hare Krishna<br>
+            Krishna Krishna Hare Hare<br>
+            Hare Rama Hare Rama<br>
+            Rama Rama Hare Hare
+          </p>
+        </div>
+
+        <div class="timer-display">
+          <div class="total-time">
+            <span class="label">TOTAL TIME</span>
+            <div class="time total-time-display" id="totalTime">00:00.0</div>
+          </div>
+
+          <div class="current-round">
+            <span class="label">CURRENT ROUND</span>
+            <div class="time current-round-display" id="roundTime">00:00.0</div>
+          </div>
+        </div>
+
+        <p class="status" id="status"></p>
+
+        <div class="controls">
+          <button class="mute" id="muteBtn">🔇</button>
+          <button class="restart-sound" id="restartSoundBtn">↻</button>
+          <button class="play" id="playBtn">▶</button>
+          <button class="add" id="lapBtn">➕</button>
+          <button class="reset" id="resetBtn">🔄</button>
+        </div>
+      </section>
+
+      <!-- Right Section: Laps Table -->
+      <section class="right-section">
+        <div class="table-container">
+          <h2 class="section-title">LAPS</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>LAP</th>
+                <th>SPLIT</th>
+                <th>ROUND</th>
+              </tr>
+            </thead>
+            <tbody id="lapsTable"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+<script src="app.js"></script>
+</body>
+</html>
